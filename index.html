@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>SignUp</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3fccd0a53b.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+body {
+	background-color: skyblue;
+}
+            .navbar{
+                display: flex;
+                justify-content: space-between;
+                background-color: black;
+                
+            }
+            a {
+             color: skyblue;
+             text-decoration: none;
+             
+            }
+            a :hover{
+                text-decoration: underline skyblue;
+            }
+
+            .nav-logo{
+                display: flex;
+                justify-content: center;
+                text-align: center;
+            }
+            .navbar h1{
+                color: skyblue;
+                padding: 2rem;
+            }
+            .logo{
+                height: 100px;
+                width: 100px;
+            }
+            .nav-link{
+                display: flex;
+                color: skyblue;    
+            }
+            .nav-link li{
+            color: skyblue;
+            list-style: none;
+                
+            padding: 39px;
+            
+            }
+            
+
+.container {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+form {
+	background-color: #fff;
+	padding: 40px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+	font-size: 32px;
+	margin-bottom: 20px;
+	color: #333;
+	text-align: center;
+}
+h1:hover{
+                cursor: pointer;
+                
+            }
+            h2{
+                
+                text-align: center;
+                text-decoration: underline;
+                margin:40px 0px;
+            }
+            h4{
+                float: right;
+                margin: 0px 30px 0px 0px;
+            }
+            h5
+            {
+                text-align: center;
+                font-size: 40px;
+                margin: 1px 0px 40px 0px;
+                text-decoration: underline;
+                color: white;
+            }
+            h6{
+                text-align: center;
+                margin-top: 10px;
+                color:white;
+            }
+
+label {
+	display: block;
+	margin-bottom: 5px;
+	color: #666;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+button{
+    color: black;
+}
+
+.copyright
+            {
+            background-color: black;
+            }
+            .footer-link{
+            color: white;
+            display: flex;
+            justify-content: space-evenly;
+            }
+
+       
+    </style>
+</head>
+<body>
+    <header class="navbar">
+        <div class="nav-logo">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKOWzMFW0UUxA1O6Xc7gdUEWIqe05_vPdpNqRGUT4EFljioDbMMY8rnhGK0TpSU3CcQqU&usqp=CAU" alt="logo" class="logo">
+        
+        </div>
+        <h1>The Gold GYM</h1>
+        <nav>
+            <ul class="nav-link">
+                <li><a href="/resources/home.html">Home</a></li>
+                <li><a href="/resources/nutrition.html">Nutrition</a></li>
+                <li><a href="/resources/Blog.html">Blog</a></li>
+                <li><a href="/index.html">SignUp</a></li>
+                </ul>
+        </nav>
+</header> 
+    <div class="container">
+        <div class="signup">
+            <form action="/resources/home.html" method="get">    
+			<h1>Signup</h1>
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name" required>
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required>
+			<label for="password">Password:</label>
+			<input type="password" id="password" name="password" required>
+			<label for="confirm-password">Confirm Password:</label>
+			<input type="password" id="confirm-password" name="confirm-password" required>
+			
+		
+            <button type="submit" value="Submit">Submit</button>
+      </form>   
+      
+    </div>
+</div>
+<footer class="copyright">
+    <h5 >Thanks for visiting</h5>
+            <nav class="footer-link">
+                <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i> Facebook</a>
+                <a href="https://www.twitter.com"  target="_blank"><i class="fa-brands fa-twitter"></i> Twitter</a>
+                <a href="https://www.instagram.com"target="_blank"><i class="fa-brands fa-instagram"></i> Instagram</a>
+                <a href="https://www.snapchat.com" target="_blank"><i class="fa-brands fa-snapchat"></i> snapchat</a>
+            </nav>
+
+<h6><i class="fa-regular fa-copyright"></i> 2023 Prasharji, Inc</h6>
+</footer>
+</body>
+</html>
